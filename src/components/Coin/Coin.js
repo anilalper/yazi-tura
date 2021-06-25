@@ -4,7 +4,11 @@ import CoinTura from "../../Assets/1-lira-tura.png";
 import CoinYazi from "../../Assets/1-lira-yazi.png";
 
 const Coin = (props) => {
+  // if(props.flipping){
+  //   props.totalCount=props.totalCount+1;
+  // }
   return (
+    
     <div className="Coin-container">
       <div className={`Coin ${props.flipping ? "Coin-rotate" : ""}`}>
         <img
